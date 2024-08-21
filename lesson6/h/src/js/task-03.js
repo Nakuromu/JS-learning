@@ -26,3 +26,4 @@ const makeGallaryCard = ({ url, alt}) =>
     const listEl = document.querySelector('.gallery');
 
     listEl.insertAdjacentHTML('afterbegin', markup);
+

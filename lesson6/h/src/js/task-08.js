@@ -18,5 +18,3 @@ loginFormEl.addEventListener('submit', (event) => {
         console.log(userRegistrInform);
     }
 })
-
-

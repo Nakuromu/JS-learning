@@ -8,6 +8,7 @@ const inputField = document.querySelector(`input[type="number"]`);
 const btnCreate = document.querySelector(`button[data-create]`);
 const btnDestroy = document.querySelector(`button[data-destroy]`);
 
+
 btnCreate.addEventListener('click', () => {
   createBoxes(inputField.value);
 })
